@@ -9,7 +9,7 @@ for (let i=0; i=i++) {
     console.log('iteration number : ${i}');
     const rect=document.createElementNS(SvgNS,"rect");
     rect.setAttribute("x",10);
-    rect.setAttribute("y",10+i*(height+Gap));
+    rect.setAttribute("y",10+i*(height+gap));
     rect.setAttribute("width",600);
     rect.setAttribute("Height",height);
     svg.appendchild(rect);
