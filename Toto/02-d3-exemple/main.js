@@ -6,11 +6,11 @@ const height=40;
 const gap=10;
 
 for (let i=0; i<10 ; i++) {
-    console.log('iteration number : ${i}');
+    console.log(`iteration number : ${i}`);
     const rect=document.createElementNS(SvgNS,"rect");
     rect.setAttribute("x",10);
     rect.setAttribute("y",10+i*(height+gap));
-    rect.setAttribute("width",600);
-    rect.setAttribute("Height",height);
-    svg.appendchild(rect);
+    rect.setAttribute("width",600-20*i);
+    rect.setAttribute("height",height);
+    svg.appendChild(rect);
 }
