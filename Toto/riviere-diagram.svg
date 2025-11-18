@@ -1,1 +1,406 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="805" height="600"><rect width="805" height="600" x="0" y="0" fill="#FFFFFF" id="background"/><g id="viz"><g transform="translate(0,0)"><g transform="translate(110,20)"><g class="bars"><rect id="undefined - Marne" x="0" y="2.9840142095914644" height="5.857509374383265" width="640.1636363636363" fill="#1f77b4"/><rect id="undefined - Oise" x="0" y="11.825537793566204" height="5.857509374383265" width="424.8245454545455" fill="#1f77b4"/><rect id="undefined - Yonne" x="0" y="20.667061377540943" height="5.857509374383265" width="364.04636363636365" fill="#1f77b4"/><rect id="undefined - Aube" x="0" y="29.50858496151568" height="5.857509374383265" width="309.24636363636364" fill="#1f77b4"/><rect id="undefined - Eure" x="0" y="38.35010854549042" height="5.857509374383265" width="284.8354545454545" fill="#1f77b4"/><rect id="undefined - Risle" x="0" y="47.19163212946516" height="5.857509374383265" width="180.59090909090907" fill="#1f77b4"/><rect id="undefined - Loing" x="0" y="56.033155713439896" height="5.857509374383265" width="177.72636363636363" fill="#1f77b4"/><rect id="undefined - Epte" x="0" y="64.87467929741464" height="5.857509374383265" width="140.73636363636362" fill="#1f77b4"/><rect id="undefined - Ource" x="0" y="73.71620288138938" height="5.857509374383265" width="125.04363636363638" fill="#1f77b4"/><rect id="undefined - Yerres" x="0" y="82.55772646536411" height="5.857509374383265" width="121.43181818181819" fill="#1f77b4"/><rect id="undefined - Essonne" x="0" y="91.39925004933886" height="5.857509374383265" width="120.93363636363635" fill="#1f77b4"/><rect id="undefined - Andelle" x="0" y="100.2407736333136" height="5.857509374383265" width="70.74181818181818" fill="#1f77b4"/><rect id="undefined - Barse" x="0" y="109.08229721728833" height="5.857509374383265" width="62.39727272727273" fill="#1f77b4"/><rect id="undefined - Orge" x="0" y="117.92382080126308" height="5.857509374383265" width="62.39727272727273" fill="#1f77b4"/><rect id="undefined - Voulzie" x="0" y="126.76534438523781" height="5.857509374383265" width="54.67545454545454" fill="#1f77b4"/><rect id="undefined - Almont" x="0" y="135.60686796921254" height="5.857509374383265" width="52.43363636363636" fill="#1f77b4"/><rect id="undefined - Orvin" x="0" y="144.4483915531873" height="5.857509374383265" width="47.45181818181818" fill="#1f77b4"/><rect id="undefined - Mauldre" x="0" y="153.28991513716204" height="5.857509374383265" width="43.217272727272736" fill="#1f77b4"/><rect id="undefined - Bièvre" x="0" y="162.13143872113676" height="5.857509374383265" width="43.092727272727274" fill="#1f77b4"/><rect id="undefined - Auxence" x="0" y="170.9729623051115" height="5.857509374383265" width="42.594545454545454" fill="#1f77b4"/><rect id="undefined - Laigne" x="0" y="179.81448588908626" height="5.857509374383265" width="41.34909090909091" fill="#1f77b4"/><rect id="undefined - Noxe" x="0" y="188.65600947306098" height="5.857509374383265" width="40.60181818181818" fill="#1f77b4"/><rect id="undefined - Brévon" x="0" y="197.49753305703572" height="5.857509374383265" width="39.231818181818184" fill="#1f77b4"/><rect id="undefined - Sarce" x="0" y="206.33905664101047" height="5.857509374383265" width="37.73727272727273" fill="#1f77b4"/><rect id="undefined - Cailly" x="0" y="215.1805802249852" height="5.857509374383265" width="36.49181818181818" fill="#1f77b4"/><rect id="undefined - Vallée Javot" x="0" y="224.02210380895994" height="5.857509374383265" width="36.24272727272727" fill="#1f77b4"/><rect id="undefined - Ardusson" x="0" y="232.8636273929347" height="5.857509374383265" width="34.623636363636365" fill="#1f77b4"/><rect id="undefined - École" x="0" y="241.70515097690944" height="5.857509374383265" width="33.25363636363636" fill="#1f77b4"/><rect id="undefined - Arce" x="0" y="250.54667456088416" height="5.857509374383265" width="32.50636363636364" fill="#1f77b4"/><rect id="undefined - Hozain" x="0" y="259.3881981448589" height="5.857509374383265" width="30.638181818181817" fill="#1f77b4"/><rect id="undefined - Melda" x="0" y="268.2297217288336" height="5.857509374383265" width="30.139999999999997" fill="#1f77b4"/><rect id="undefined - Resson" x="0" y="277.0712453128084" height="5.857509374383265" width="29.517272727272726" fill="#1f77b4"/><rect id="undefined - Vaucouleurs" x="0" y="285.9127688967831" height="5.857509374383265" width="27.275454545454544" fill="#1f77b4"/><rect id="undefined - Aubette de Meulan" x="0" y="294.75429248075784" height="5.857509374383265" width="24.909090909090907" fill="#1f77b4"/><rect id="undefined - Austreberthe" x="0" y="303.5958160647326" height="5.857509374383265" width="22.293636363636363" fill="#1f77b4"/><rect id="undefined - Morelle" x="0" y="312.43733964870734" height="5.857509374383265" width="22.044545454545453" fill="#1f77b4"/><rect id="undefined - rû des Hauldres" x="0" y="321.27886323268206" height="5.857509374383265" width="21.297272727272727" fill="#1f77b4"/><rect id="undefined - Oison" x="0" y="330.12038681665683" height="5.857509374383265" width="19.927272727272726" fill="#1f77b4"/><rect id="undefined - ru d'Orgeval" x="0" y="338.96191040063155" height="5.857509374383265" width="19.927272727272726" fill="#1f77b4"/><rect id="undefined - Commerce" x="0" y="347.8034339846063" height="5.857509374383265" width="19.304545454545455" fill="#1f77b4"/><rect id="undefined - Revinson" x="0" y="356.64495756858105" height="5.857509374383265" width="19.18" fill="#1f77b4"/><rect id="undefined - ru de Chaumont" x="0" y="365.48648115255577" height="5.857509374383265" width="18.308181818181815" fill="#1f77b4"/><rect id="undefined - Lézarde" x="0" y="374.3280047365305" height="5.857509374383265" width="17.685454545454544" fill="#1f77b4"/><rect id="undefined - ru d'Enghien" x="0" y="383.16952832050526" height="5.857509374383265" width="17.660545454545453" fill="#1f77b4"/><rect id="undefined - Ru de Balory" x="0" y="392.01105190448" height="5.857509374383265" width="15.194545454545453" fill="#1f77b4"/><rect id="undefined - Mare aux Evées" x="0" y="400.8525754884547" height="5.857509374383265" width="14.073636363636364" fill="#1f77b4"/><rect id="undefined - Châtelet" x="0" y="409.6940990724295" height="5.857509374383265" width="13.575454545454546" fill="#1f77b4"/><rect id="undefined - Canal de Sauvage" x="0" y="418.5356226564042" height="5.857509374383265" width="13.450909090909093" fill="#1f77b4"/><rect id="undefined - Faverolle" x="0" y="427.3771462403789" height="5.857509374383265" width="12.952727272727273" fill="#1f77b4"/><rect id="undefined - ru de Buzot" x="0" y="436.2186698243537" height="5.857509374383265" width="11.458181818181817" fill="#1f77b4"/><rect id="undefined - Robec" x="0" y="445.0601934083284" height="5.857509374383265" width="11.20909090909091" fill="#1f77b4"/><rect id="undefined - ru de Marivel" x="0" y="453.9017169923032" height="5.857509374383265" width="11.20909090909091" fill="#1f77b4"/><rect id="undefined - Gambon" x="0" y="462.7432405762779" height="5.857509374383265" width="10.461818181818183" fill="#1f77b4"/><rect id="undefined - Télhuet" x="0" y="471.58476416025263" height="5.857509374383265" width="10.337272727272728" fill="#1f77b4"/><rect id="undefined - Aubette" x="0" y="480.4262877442274" height="5.857509374383265" width="9.83909090909091" fill="#1f77b4"/><rect id="undefined - Triffoire" x="0" y="489.26781132820213" height="5.857509374383265" width="9.83909090909091" fill="#1f77b4"/><rect id="undefined - ru du canal" x="0" y="498.10933491217685" height="5.857509374383265" width="9.216363636363637" fill="#1f77b4"/><rect id="undefined - Vieille Mer" x="0" y="506.9508584961516" height="5.857509374383265" width="7.4727272727272736" fill="#1f77b4"/><rect id="undefined - canal Saint-Martin" x="0" y="515.7923820801263" height="5.857509374383265" width="5.729090909090909" fill="#1f77b4"/><rect id="undefined - Sainte-Gertrude" x="0" y="524.6339056641011" height="5.857509374383265" width="5.106363636363636" fill="#1f77b4"/><rect id="undefined - rû d'Écoute" x="0" y="533.4754292480758" height="5.857509374383265" width="4.359090909090909" fill="#1f77b4"/><rect id="undefined - Rançon" x="0" y="542.3169528320506" height="5.857509374383265" width="4.072636363636364" fill="#1f77b4"/><rect id="undefined - Douix" x="0" y="551.1584764160253" height="5.857509374383265" width="0.12454545454545456" fill="#1f77b4"/></g><g id="xAxis" transform="translate(0,560)" fill="none" font-size="10" font-family="sans-serif" text-anchor="middle"><path class="domain" stroke="currentColor" d="M0,6V0H685V6"/><g class="tick" opacity="1" transform="translate(0,0)"><line stroke="currentColor" y2="6"/><text fill="currentColor" y="9" dy="0.71em">0</text></g><g class="tick" opacity="1" transform="translate(62.27272727272727,0)"><line stroke="currentColor" y2="6"/><text fill="currentColor" y="9" dy="0.71em">50</text></g><g class="tick" opacity="1" transform="translate(124.54545454545455,0)"><line stroke="currentColor" y2="6"/><text fill="currentColor" y="9" dy="0.71em">100</text></g><g class="tick" opacity="1" transform="translate(186.8181818181818,0)"><line stroke="currentColor" y2="6"/><text fill="currentColor" y="9" dy="0.71em">150</text></g><g class="tick" opacity="1" transform="translate(249.0909090909091,0)"><line stroke="currentColor" y2="6"/><text fill="currentColor" y="9" dy="0.71em">200</text></g><g class="tick" opacity="1" transform="translate(311.3636363636364,0)"><line stroke="currentColor" y2="6"/><text fill="currentColor" y="9" dy="0.71em">250</text></g><g class="tick" opacity="1" transform="translate(373.6363636363636,0)"><line stroke="currentColor" y2="6"/><text fill="currentColor" y="9" dy="0.71em">300</text></g><g class="tick" opacity="1" transform="translate(435.9090909090909,0)"><line stroke="currentColor" y2="6"/><text fill="currentColor" y="9" dy="0.71em">350</text></g><g class="tick" opacity="1" transform="translate(498.1818181818182,0)"><line stroke="currentColor" y2="6"/><text fill="currentColor" y="9" dy="0.71em">400</text></g><g class="tick" opacity="1" transform="translate(560.4545454545455,0)"><line stroke="currentColor" y2="6"/><text fill="currentColor" y="9" dy="0.71em">450</text></g><g class="tick" opacity="1" transform="translate(622.7272727272727,0)"><line stroke="currentColor" y2="6"/><text fill="currentColor" y="9" dy="0.71em">500</text></g><g class="tick" opacity="1" transform="translate(685,0)"><line stroke="currentColor" y2="6"/><text fill="currentColor" y="9" dy="0.71em">550</text></g><text font-family="Arial, sans-serif" font-size="10" x="685" dy="-5" fill="black" font-weight="bold" text-anchor="end">length [sum]</text></g><g id="yAxis" transform="translate(0,0)" fill="none" font-size="10" font-family="sans-serif" text-anchor="end"><path class="domain" stroke="currentColor" d="M0,0V560"/><g class="tick" opacity="1" transform="translate(0,5.912768896783097)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">Marne</text></g><g class="tick" opacity="1" transform="translate(0,14.754292480757837)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">Oise</text></g><g class="tick" opacity="1" transform="translate(0,23.595816064732574)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">Yonne</text></g><g class="tick" opacity="1" transform="translate(0,32.437339648707315)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">Aube</text></g><g class="tick" opacity="1" transform="translate(0,41.278863232682056)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">Eure</text></g><g class="tick" opacity="1" transform="translate(0,50.1203868166568)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">Risle</text></g><g class="tick" opacity="1" transform="translate(0,58.96191040063153)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">Loing</text></g><g class="tick" opacity="1" transform="translate(0,67.80343398460627)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">Epte</text></g><g class="tick" opacity="1" transform="translate(0,76.644957568581)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">Ource</text></g><g class="tick" opacity="1" transform="translate(0,85.48648115255574)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">Yerres</text></g><g class="tick" opacity="1" transform="translate(0,94.32800473653049)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">Essonne</text></g><g class="tick" opacity="1" transform="translate(0,103.16952832050522)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">Andelle</text></g><g class="tick" opacity="1" transform="translate(0,112.01105190447996)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">Barse</text></g><g class="tick" opacity="1" transform="translate(0,120.8525754884547)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">Orge</text></g><g class="tick" opacity="1" transform="translate(0,129.69409907242945)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">Voulzie</text></g><g class="tick" opacity="1" transform="translate(0,138.53562265640417)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">Almont</text></g><g class="tick" opacity="1" transform="translate(0,147.37714624037892)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">Orvin</text></g><g class="tick" opacity="1" transform="translate(0,156.21866982435367)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">Mauldre</text></g><g class="tick" opacity="1" transform="translate(0,165.0601934083284)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">Bièvre</text></g><g class="tick" opacity="1" transform="translate(0,173.90171699230314)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">Auxence</text></g><g class="tick" opacity="1" transform="translate(0,182.74324057627788)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">Laigne</text></g><g class="tick" opacity="1" transform="translate(0,191.5847641602526)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">Noxe</text></g><g class="tick" opacity="1" transform="translate(0,200.42628774422735)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">Brévon</text></g><g class="tick" opacity="1" transform="translate(0,209.2678113282021)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">Sarce</text></g><g class="tick" opacity="1" transform="translate(0,218.10933491217682)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">Cailly</text></g><g class="tick" opacity="1" transform="translate(0,226.95085849615157)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">Vallée Javot</text></g><g class="tick" opacity="1" transform="translate(0,235.79238208012632)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">Ardusson</text></g><g class="tick" opacity="1" transform="translate(0,244.63390566410106)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">École</text></g><g class="tick" opacity="1" transform="translate(0,253.47542924807578)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">Arce</text></g><g class="tick" opacity="1" transform="translate(0,262.31695283205056)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">Hozain</text></g><g class="tick" opacity="1" transform="translate(0,271.1584764160253)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">Melda</text></g><g class="tick" opacity="1" transform="translate(0,280.00000000000006)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">Resson</text></g><g class="tick" opacity="1" transform="translate(0,288.8415235839748)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">Vaucouleurs</text></g><g class="tick" opacity="1" transform="translate(0,297.6830471679495)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">Aubette de Meulan</text></g><g class="tick" opacity="1" transform="translate(0,306.5245707519243)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">Austreberthe</text></g><g class="tick" opacity="1" transform="translate(0,315.366094335899)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">Morelle</text></g><g class="tick" opacity="1" transform="translate(0,324.2076179198737)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">rû des Hauldres</text></g><g class="tick" opacity="1" transform="translate(0,333.0491415038485)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">Oison</text></g><g class="tick" opacity="1" transform="translate(0,341.8906650878232)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">ru d'Orgeval</text></g><g class="tick" opacity="1" transform="translate(0,350.7321886717979)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">Commerce</text></g><g class="tick" opacity="1" transform="translate(0,359.5737122557727)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">Revinson</text></g><g class="tick" opacity="1" transform="translate(0,368.4152358397474)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">ru de Chaumont</text></g><g class="tick" opacity="1" transform="translate(0,377.25675942372214)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">Lézarde</text></g><g class="tick" opacity="1" transform="translate(0,386.0982830076969)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">ru d'Enghien</text></g><g class="tick" opacity="1" transform="translate(0,394.93980659167164)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">Ru de Balory</text></g><g class="tick" opacity="1" transform="translate(0,403.78133017564636)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">Mare aux Evées</text></g><g class="tick" opacity="1" transform="translate(0,412.62285375962114)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">Châtelet</text></g><g class="tick" opacity="1" transform="translate(0,421.46437734359586)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">Canal de Sauvage</text></g><g class="tick" opacity="1" transform="translate(0,430.3059009275706)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">Faverolle</text></g><g class="tick" opacity="1" transform="translate(0,439.14742451154535)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">ru de Buzot</text></g><g class="tick" opacity="1" transform="translate(0,447.9889480955201)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">Robec</text></g><g class="tick" opacity="1" transform="translate(0,456.83047167949485)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">ru de Marivel</text></g><g class="tick" opacity="1" transform="translate(0,465.67199526346957)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">Gambon</text></g><g class="tick" opacity="1" transform="translate(0,474.5135188474443)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">Télhuet</text></g><g class="tick" opacity="1" transform="translate(0,483.35504243141906)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">Aubette</text></g><g class="tick" opacity="1" transform="translate(0,492.1965660153938)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">Triffoire</text></g><g class="tick" opacity="1" transform="translate(0,501.0380895993685)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">ru du canal</text></g><g class="tick" opacity="1" transform="translate(0,509.8796131833433)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">Vieille Mer</text></g><g class="tick" opacity="1" transform="translate(0,518.721136767318)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">canal Saint-Martin</text></g><g class="tick" opacity="1" transform="translate(0,527.5626603512927)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">Sainte-Gertrude</text></g><g class="tick" opacity="1" transform="translate(0,536.4041839352674)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">rû d'Écoute</text></g><g class="tick" opacity="1" transform="translate(0,545.2457075192422)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">Rançon</text></g><g class="tick" opacity="1" transform="translate(0,554.0872311032169)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">Douix</text></g><text font-family="Arial, sans-serif" font-size="10" x="4" fill="black" font-weight="bold" text-anchor="start" dominant-baseline="hanging">riverLabel</text></g></g><text y="4" x="4" style="font-family: Arial, sans-serif; font-size: 12px; fill: black; font-weight: bold; dominant-baseline: hanging;"/></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="805" height="600">
+    <rect width="805" height="600" x="0" y="0" fill="#FFFFFF" id="background" />
+    <g id="viz">
+        <g transform="translate(0,0)">
+            <g transform="translate(110,20)">
+                <g class="bars">
+                    <rect id="undefined - Marne" x="0" y="2.9840142095914644" height="5.857509374383265"
+                        width="640.1636363636363" fill="#1f77b4" />
+                    <rect id="undefined - Oise" x="0" y="11.825537793566204" height="5.857509374383265"
+                        width="424.8245454545455" fill="#1f77b4" />
+                    <rect id="undefined - Yonne" x="0" y="20.667061377540943" height="5.857509374383265"
+                        width="364.04636363636365" fill="chartreuse" />
+                    <rect id="undefined - Aube" x="0" y="29.50858496151568" height="5.857509374383265"
+                        width="309.24636363636364" fill="#1f77b4" />
+                    <rect id="undefined - Eure" x="0" y="38.35010854549042" height="5.857509374383265"
+                        width="284.8354545454545" fill="#1f77b4" />
+                    <rect id="undefined - Risle" x="0" y="47.19163212946516" height="5.857509374383265"
+                        width="180.59090909090907" fill="#1f77b4" />
+                    <rect id="undefined - Loing" x="0" y="56.033155713439896" height="5.857509374383265"
+                        width="177.72636363636363" fill="#1f77b4" />
+                    <rect id="undefined - Epte" x="0" y="64.87467929741464" height="5.857509374383265"
+                        width="140.73636363636362" fill="#1f77b4" />
+                    <rect id="undefined - Ource" x="0" y="73.71620288138938" height="5.857509374383265"
+                        width="125.04363636363638" fill="#1f77b4" />
+                    <rect id="undefined - Yerres" x="0" y="82.55772646536411" height="5.857509374383265"
+                        width="121.43181818181819" fill="#1f77b4" />
+                    <rect id="undefined - Essonne" x="0" y="91.39925004933886" height="5.857509374383265"
+                        width="120.93363636363635" fill="#1f77b4" />
+                    <rect id="undefined - Andelle" x="0" y="100.2407736333136" height="5.857509374383265"
+                        width="70.74181818181818" fill="#1f77b4" />
+                    <rect id="undefined - Barse" x="0" y="109.08229721728833" height="5.857509374383265"
+                        width="62.39727272727273" fill="#1f77b4" />
+                    <rect id="undefined - Orge" x="0" y="117.92382080126308" height="5.857509374383265"
+                        width="62.39727272727273" fill="#1f77b4" />
+                    <rect id="undefined - Voulzie" x="0" y="126.76534438523781" height="5.857509374383265"
+                        width="54.67545454545454" fill="#1f77b4" />
+                    <rect id="undefined - Almont" x="0" y="135.60686796921254" height="5.857509374383265"
+                        width="52.43363636363636" fill="#1f77b4" />
+                    <rect id="undefined - Orvin" x="0" y="144.4483915531873" height="5.857509374383265"
+                        width="47.45181818181818" fill="#1f77b4" />
+                    <rect id="undefined - Mauldre" x="0" y="153.28991513716204" height="5.857509374383265"
+                        width="43.217272727272736" fill="#1f77b4" />
+                    <rect id="undefined - Bièvre" x="0" y="162.13143872113676" height="5.857509374383265"
+                        width="43.092727272727274" fill="#1f77b4" />
+                    <rect id="undefined - Auxence" x="0" y="170.9729623051115" height="5.857509374383265"
+                        width="42.594545454545454" fill="#1f77b4" />
+                    <rect id="undefined - Laigne" x="0" y="179.81448588908626" height="5.857509374383265"
+                        width="41.34909090909091" fill="#1f77b4" />
+                    <rect id="undefined - Noxe" x="0" y="188.65600947306098" height="5.857509374383265"
+                        width="40.60181818181818" fill="#1f77b4" />
+                    <rect id="undefined - Brévon" x="0" y="197.49753305703572" height="5.857509374383265"
+                        width="39.231818181818184" fill="#1f77b4" />
+                    <rect id="undefined - Sarce" x="0" y="206.33905664101047" height="5.857509374383265"
+                        width="37.73727272727273" fill="#1f77b4" />
+                    <rect id="undefined - Cailly" x="0" y="215.1805802249852" height="5.857509374383265"
+                        width="36.49181818181818" fill="#1f77b4" />
+                    <rect id="undefined - Vallée Javot" x="0" y="224.02210380895994" height="5.857509374383265"
+                        width="36.24272727272727" fill="#1f77b4" />
+                    <rect id="undefined - Ardusson" x="0" y="232.8636273929347" height="5.857509374383265"
+                        width="34.623636363636365" fill="#1f77b4" />
+                    <rect id="undefined - École" x="0" y="241.70515097690944" height="5.857509374383265"
+                        width="33.25363636363636" fill="#1f77b4" />
+                    <rect id="undefined - Arce" x="0" y="250.54667456088416" height="5.857509374383265"
+                        width="32.50636363636364" fill="#1f77b4" />
+                    <rect id="undefined - Hozain" x="0" y="259.3881981448589" height="5.857509374383265"
+                        width="30.638181818181817" fill="#1f77b4" />
+                    <rect id="undefined - Melda" x="0" y="268.2297217288336" height="5.857509374383265"
+                        width="30.139999999999997" fill="#1f77b4" />
+                    <rect id="undefined - Resson" x="0" y="277.0712453128084" height="5.857509374383265"
+                        width="29.517272727272726" fill="#1f77b4" />
+                    <rect id="undefined - Vaucouleurs" x="0" y="285.9127688967831" height="5.857509374383265"
+                        width="27.275454545454544" fill="#1f77b4" />
+                    <rect id="undefined - Aubette de Meulan" x="0" y="294.75429248075784" height="5.857509374383265"
+                        width="24.909090909090907" fill="#1f77b4" />
+                    <rect id="undefined - Austreberthe" x="0" y="303.5958160647326" height="5.857509374383265"
+                        width="22.293636363636363" fill="#1f77b4" />
+                    <rect id="undefined - Morelle" x="0" y="312.43733964870734" height="5.857509374383265"
+                        width="22.044545454545453" fill="#1f77b4" />
+                    <rect id="undefined - rû des Hauldres" x="0" y="321.27886323268206" height="5.857509374383265"
+                        width="21.297272727272727" fill="#1f77b4" />
+                    <rect id="undefined - Oison" x="0" y="330.12038681665683" height="5.857509374383265"
+                        width="19.927272727272726" fill="#1f77b4" />
+                    <rect id="undefined - ru d'Orgeval" x="0" y="338.96191040063155" height="5.857509374383265"
+                        width="19.927272727272726" fill="#1f77b4" />
+                    <rect id="undefined - Commerce" x="0" y="347.8034339846063" height="5.857509374383265"
+                        width="19.304545454545455" fill="#1f77b4" />
+                    <rect id="undefined - Revinson" x="0" y="356.64495756858105" height="5.857509374383265"
+                        width="19.18" fill="#1f77b4" />
+                    <rect id="undefined - ru de Chaumont" x="0" y="365.48648115255577" height="5.857509374383265"
+                        width="18.308181818181815" fill="#1f77b4" />
+                    <rect id="undefined - Lézarde" x="0" y="374.3280047365305" height="5.857509374383265"
+                        width="17.685454545454544" fill="#1f77b4" />
+                    <rect id="undefined - ru d'Enghien" x="0" y="383.16952832050526" height="5.857509374383265"
+                        width="17.660545454545453" fill="#1f77b4" />
+                    <rect id="undefined - Ru de Balory" x="0" y="392.01105190448" height="5.857509374383265"
+                        width="15.194545454545453" fill="#1f77b4" />
+                    <rect id="undefined - Mare aux Evées" x="0" y="400.8525754884547" height="5.857509374383265"
+                        width="14.073636363636364" fill="#1f77b4" />
+                    <rect id="undefined - Châtelet" x="0" y="409.6940990724295" height="5.857509374383265"
+                        width="13.575454545454546" fill="#1f77b4" />
+                    <rect id="undefined - Canal de Sauvage" x="0" y="418.5356226564042" height="5.857509374383265"
+                        width="13.450909090909093" fill="#1f77b4" />
+                    <rect id="undefined - Faverolle" x="0" y="427.3771462403789" height="5.857509374383265"
+                        width="12.952727272727273" fill="#1f77b4" />
+                    <rect id="undefined - ru de Buzot" x="0" y="436.2186698243537" height="5.857509374383265"
+                        width="11.458181818181817" fill="#1f77b4" />
+                    <rect id="undefined - Robec" x="0" y="445.0601934083284" height="5.857509374383265"
+                        width="11.20909090909091" fill="#1f77b4" />
+                    <rect id="undefined - ru de Marivel" x="0" y="453.9017169923032" height="5.857509374383265"
+                        width="11.20909090909091" fill="#1f77b4" />
+                    <rect id="undefined - Gambon" x="0" y="462.7432405762779" height="5.857509374383265"
+                        width="10.461818181818183" fill="#1f77b4" />
+                    <rect id="undefined - Télhuet" x="0" y="471.58476416025263" height="5.857509374383265"
+                        width="10.337272727272728" fill="#1f77b4" />
+                    <rect id="undefined - Aubette" x="0" y="480.4262877442274" height="5.857509374383265"
+                        width="9.83909090909091" fill="#1f77b4" />
+                    <rect id="undefined - Triffoire" x="0" y="489.26781132820213" height="5.857509374383265"
+                        width="9.83909090909091" fill="#1f77b4" />
+                    <rect id="undefined - ru du canal" x="0" y="498.10933491217685" height="5.857509374383265"
+                        width="9.216363636363637" fill="#1f77b4" />
+                    <rect id="undefined - Vieille Mer" x="0" y="506.9508584961516" height="5.857509374383265"
+                        width="7.4727272727272736" fill="#1f77b4" />
+                    <rect id="undefined - canal Saint-Martin" x="0" y="515.7923820801263" height="5.857509374383265"
+                        width="5.729090909090909" fill="#1f77b4" />
+                    <rect id="undefined - Sainte-Gertrude" x="0" y="524.6339056641011" height="5.857509374383265"
+                        width="5.106363636363636" fill="#1f77b4" />
+                    <rect id="undefined - rû d'Écoute" x="0" y="533.4754292480758" height="5.857509374383265"
+                        width="4.359090909090909" fill="#1f77b4" />
+                    <rect id="undefined - Rançon" x="0" y="542.3169528320506" height="5.857509374383265"
+                        width="4.072636363636364" fill="#1f77b4" />
+                    <rect id="undefined - Douix" x="0" y="551.1584764160253" height="5.857509374383265"
+                        width="0.12454545454545456" fill="#1f77b4" />
+                </g>
+                <g id="xAxis" transform="translate(0,560)" fill="none" font-size="10" font-family="sans-serif"
+                    text-anchor="middle">
+                    <path class="domain" stroke="currentColor" d="M0,6V0H685V6" />
+                    <g class="tick" opacity="1" transform="translate(0,0)">
+                        <line stroke="currentColor" y2="6" /><text fill="currentColor" y="9" dy="0.71em">0</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(62.27272727272727,0)">
+                        <line stroke="currentColor" y2="6" /><text fill="currentColor" y="9" dy="0.71em">50</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(124.54545454545455,0)">
+                        <line stroke="currentColor" y2="6" /><text fill="currentColor" y="9" dy="0.71em">100</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(186.8181818181818,0)">
+                        <line stroke="currentColor" y2="6" /><text fill="currentColor" y="9" dy="0.71em">150</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(249.0909090909091,0)">
+                        <line stroke="currentColor" y2="6" /><text fill="currentColor" y="9" dy="0.71em">200</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(311.3636363636364,0)">
+                        <line stroke="currentColor" y2="6" /><text fill="currentColor" y="9" dy="0.71em">250</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(373.6363636363636,0)">
+                        <line stroke="currentColor" y2="6" /><text fill="currentColor" y="9" dy="0.71em">300</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(435.9090909090909,0)">
+                        <line stroke="currentColor" y2="6" /><text fill="currentColor" y="9" dy="0.71em">350</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(498.1818181818182,0)">
+                        <line stroke="currentColor" y2="6" /><text fill="currentColor" y="9" dy="0.71em">400</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(560.4545454545455,0)">
+                        <line stroke="currentColor" y2="6" /><text fill="currentColor" y="9" dy="0.71em">450</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(622.7272727272727,0)">
+                        <line stroke="currentColor" y2="6" /><text fill="currentColor" y="9" dy="0.71em">500</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(685,0)">
+                        <line stroke="currentColor" y2="6" /><text fill="currentColor" y="9" dy="0.71em">550</text>
+                    </g><text font-family="Arial, sans-serif" font-size="10" x="685" dy="-5" fill="black"
+                        font-weight="bold" text-anchor="end">Longueur (Km)</text>
+                </g>
+                <g id="yAxis" transform="translate(0,0)" fill="none" font-size="10" font-family="sans-serif"
+                    text-anchor="end">
+                    <path class="domain" stroke="currentColor" d="M0,0V560" />
+                    <g class="tick" opacity="1" transform="translate(0,5.912768896783097)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9" dy="0.32em">Marne</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,14.754292480757837)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9" dy="0.32em">Oise</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,23.595816064732574)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9" dy="0.32em">Yonne</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,32.437339648707315)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9" dy="0.32em">Aube</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,41.278863232682056)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9" dy="0.32em">Eure</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,50.1203868166568)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9" dy="0.32em">Risle</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,58.96191040063153)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9" dy="0.32em">Loing</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,67.80343398460627)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9" dy="0.32em">Epte</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,76.644957568581)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9" dy="0.32em">Ource</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,85.48648115255574)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9" dy="0.32em">Yerres</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,94.32800473653049)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9"
+                            dy="0.32em">Essonne</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,103.16952832050522)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9"
+                            dy="0.32em">Andelle</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,112.01105190447996)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9" dy="0.32em">Barse</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,120.8525754884547)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9" dy="0.32em">Orge</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,129.69409907242945)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9"
+                            dy="0.32em">Voulzie</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,138.53562265640417)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9" dy="0.32em">Almont</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,147.37714624037892)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9" dy="0.32em">Orvin</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,156.21866982435367)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9"
+                            dy="0.32em">Mauldre</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,165.0601934083284)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9" dy="0.32em">Bièvre</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,173.90171699230314)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9"
+                            dy="0.32em">Auxence</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,182.74324057627788)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9" dy="0.32em">Laigne</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,191.5847641602526)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9" dy="0.32em">Noxe</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,200.42628774422735)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9" dy="0.32em">Brévon</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,209.2678113282021)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9" dy="0.32em">Sarce</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,218.10933491217682)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9" dy="0.32em">Cailly</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,226.95085849615157)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9" dy="0.32em">Vallée
+                            Javot</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,235.79238208012632)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9"
+                            dy="0.32em">Ardusson</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,244.63390566410106)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9" dy="0.32em">École</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,253.47542924807578)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9" dy="0.32em">Arce</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,262.31695283205056)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9" dy="0.32em">Hozain</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,271.1584764160253)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9" dy="0.32em">Melda</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,280.00000000000006)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9" dy="0.32em">Resson</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,288.8415235839748)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9"
+                            dy="0.32em">Vaucouleurs</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,297.6830471679495)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9" dy="0.32em">Aubette de
+                            Meulan</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,306.5245707519243)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9"
+                            dy="0.32em">Austreberthe</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,315.366094335899)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9"
+                            dy="0.32em">Morelle</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,324.2076179198737)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9" dy="0.32em">rû des
+                            Hauldres</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,333.0491415038485)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9" dy="0.32em">Oison</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,341.8906650878232)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9" dy="0.32em">ru
+                            d'Orgeval</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,350.7321886717979)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9"
+                            dy="0.32em">Commerce</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,359.5737122557727)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9"
+                            dy="0.32em">Revinson</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,368.4152358397474)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9" dy="0.32em">ru de
+                            Chaumont</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,377.25675942372214)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9"
+                            dy="0.32em">Lézarde</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,386.0982830076969)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9" dy="0.32em">ru
+                            d'Enghien</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,394.93980659167164)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9" dy="0.32em">Ru de
+                            Balory</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,403.78133017564636)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9" dy="0.32em">Mare aux
+                            Evées</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,412.62285375962114)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9"
+                            dy="0.32em">Châtelet</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,421.46437734359586)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9" dy="0.32em">Canal de
+                            Sauvage</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,430.3059009275706)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9"
+                            dy="0.32em">Faverolle</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,439.14742451154535)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9" dy="0.32em">ru de
+                            Buzot</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,447.9889480955201)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9" dy="0.32em">Robec</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,456.83047167949485)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9" dy="0.32em">ru de
+                            Marivel</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,465.67199526346957)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9" dy="0.32em">Gambon</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,474.5135188474443)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9"
+                            dy="0.32em">Télhuet</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,483.35504243141906)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9"
+                            dy="0.32em">Aubette</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,492.1965660153938)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9"
+                            dy="0.32em">Triffoire</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,501.0380895993685)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9" dy="0.32em">ru du
+                            canal</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,509.8796131833433)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9" dy="0.32em">Vieille
+                            Mer</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,518.721136767318)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9" dy="0.32em">canal
+                            Saint-Martin</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,527.5626603512927)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9"
+                            dy="0.32em">Sainte-Gertrude</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,536.4041839352674)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9" dy="0.32em">rû
+                            d'Écoute</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,545.2457075192422)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9" dy="0.32em">Rançon</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,554.0872311032169)">
+                        <line stroke="currentColor" x2="-6" /><text fill="currentColor" x="-9" dy="0.32em">Douix</text>
+                    </g><text font-family="Arial, sans-serif" font-size="10" x="4" fill="black" font-weight="bold"
+                        text-anchor="start" dominant-baseline="hanging"></text>
+                </g>
+            </g><text y="4" x="4"
+                style="font-family: Arial, sans-serif; font-size: 12px; fill: black; font-weight: bold; dominant-baseline: hanging;" />
+        </g>
+    </g>
+</svg>
