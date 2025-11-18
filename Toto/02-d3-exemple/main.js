@@ -5,7 +5,7 @@ const SvgNS="http://www.w3.org/2000/svg"
 const height=40;
 const gap=10;
 
-for (let i=0; i=i++) {
+for (let i=0; i<10;=i++) {
     console.log('iteration number : ${i}');
     const rect=document.createElementNS(SvgNS,"rect");
     rect.setAttribute("x",10);
