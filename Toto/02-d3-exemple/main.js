@@ -1,4 +1,6 @@
-console.log("Hello, Jean-Louis!");
+console.log("Hello, Ratrack !");
+
+console.log('d3: ', d3);
 
 const recupererDonnees = async () => {
     const endpoint = "https://query.wikidata.org/sparql";
