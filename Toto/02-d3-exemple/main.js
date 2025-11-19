@@ -1,14 +1,10 @@
+
 import { setupButtons } from "./buttons.js";
 
-console.log("Hello, Jean-Louis!");
-
-
-console.log('d3: ', d3);
-
 const recupererDonnees = async () => {
-    const endpoint = "https://query.wikidata.org/sparql";
-    const query = `
-      SELECT ?river ?riverLabel ?length ?bassinVersant
+  const endpoint = "https://query.wikidata.org/sparql";
+  const query = `
+SELECT ?river ?riverLabel ?length ?bassinVersant
 WHERE {
   ?river wdt:P403 wd:Q1471 .  # embouchure = Seine
   ?river wdt:P2043 ?length .  # longueur (en km)
@@ -18,140 +14,154 @@ WHERE {
   }
 }
 ORDER BY DESC(?length)
-    `;
+`;
 
-    const url = endpoint + "?query=" + encodeURIComponent(query);
-    const response = await fetch(url, {
-        headers: { "Accept": "application/sparql-results+json" }
-    });
+  const queryString = "?query=" + encodeURIComponent(query);
+  console.log("queryString: ", queryString);
+  const url = endpoint + queryString;
+  const response = await fetch(url, {
+    headers: { Accept: "application/sparql-results+json" },
+  });
 
-    if (!response.ok) {
-        throw new Error("Erreur réseau (" + response.status + ")");
-    }
+  if (!response.ok) {
+    throw new Error("Erreur réseau (" + response.status + ")");
+  }
 
-    const json = await response.json();
-    console.log('json: ', json);
+  const json = await response.json();
+  console.log("json: ", json);
 
-    const data = json.results.bindings.map(b => ({
-        name: b.riverLabel?.value || "(sans nom)",
-        km: parseFloat(b.length.value),
-        surfaceBassinVersant: parseFloat(b.bassinVersant.value)
-    }));
-    console.log('data: ', data);
+  const data = json.results.bindings.map((b) => ({
+    id: b.river.value,
+    name: b.riverLabel?.value || "(sans nom)",
+    km: parseFloat(b.length.value),
+    surfaceBassinVersant: parseFloat(b.bassinVersant.value),
+  }));
 
-    return data;
-}
+  console.log("data: ", data);
+  return data;
+};
 
 const afficheDiagramme = (data) => {
-    const svgns = "http://www.w3.org/2000/svg";
+  const svgns = "http://www.w3.org/2000/svg";
 
-    const svg = document.querySelector("svg");
-    console.log('svg: ', svg);
-    const height = 40;
-    const gap = 10;
-    const width = +svg.getAttribute("width") - 2*10;
-    const ratio =  width / data[0].km; 
-    console.log('ratio: ', ratio);
+  const svg = document.querySelector("svg");
 
-    for (let i = 0; i < 10; i++) {
-        console.log(`Iteration number: ${i}`);
+  const height = 40;
+  const gap = 10;
+  const width = +svg.getAttribute("width") - 2 * 10;
+  const ratio = width / data[0].km;
 
-        // ajoute un rectangle SVG pour chaque itération
-        const rect = document.createElementNS(svgns, "rect");
-        rect.setAttribute("x", 10);
-        rect.setAttribute("y", 10 + i * (height+gap));
-        rect.setAttribute("width", data[i].km * ratio);
-        rect.setAttribute("height", height);
+  for (let i = 0; i < 10; i++) {
+    // ajoute un rectangle SVG pour chaque itération
+    const rect = document.createElementNS(svgns, "rect");
+    rect.setAttribute("x", 10);
+    rect.setAttribute("y", 10 + i * (height + gap));
+    rect.setAttribute("width", data[i].km * ratio);
+    rect.setAttribute("height", height);
 
-        const text = document.createElementNS(svgns, "text");
-        text.setAttribute("x", 10 + 10);
-        text.setAttribute("y", 10 + i * (height+gap) + height / 2);
-        text.setAttribute("dominant-baseline", "middle");
-        text.innerHTML = `${data[i].name} (${data[i].km} km)`;
-        
-        svg.appendChild(rect);
-        svg.appendChild(text);
+    const text = document.createElementNS(svgns, "text");
+    text.setAttribute("x", 10 + 10);
+    text.setAttribute("y", 10 + i * (height + gap) + height / 2);
+    text.setAttribute("dominant-baseline", "middle");
+    text.innerHTML = `${data[i].name} (${data[i].km} km)`;
 
-    }
-}
+    svg.appendChild(rect);
+    svg.appendChild(text);
+  }
+};
 
 const afficheDiagrammeWithD3 = (data, type) => {
-    console.log('type: ', type);
+  const textMaxWidth = 70;
+  const textWidth = 90;
+  const svg = d3.select("svg");
 
-    const textMaxWidth = 70;
-    const kmTextWidth = 50;
-    const svg = d3.select("svg");
-    console.log('svg: ', svg);
-    const height = 40;
-    const gap = 10;
-    const maxBarWith = +svg.attr("width") - 2*10 - textMaxWidth - kmTextWidth;
-    const ratio =  maxBarWith / data[0][type]; 
-    console.log('ratio: ', ratio);
+  const height = 40;
+  const gap = 10;
+  const maxBarWith = +svg.attr("width") - 2 * 10 - textMaxWidth - textWidth;
+  const ratio = maxBarWith / data[0][type];
 
-    const groupes = svg.selectAll("g")
-        .data(data, d => d.name);
+  const groupes = svg.selectAll("g").data(data, (d) => d.id);
 
+  // Le groupe de ceux qui entrent (les enters)
+  const groupesEnter = groupes
+    .enter()
+    .append("g")
+    .attr("transform", (d, i) => `translate(0, ${10 + i * (height + gap)})`);
 
-    const groupesEnter =  groupes.enter()
-        .append("g")
-        .attr("transform", (d,i) => `translate(0, ${10 + i * (height + gap)})`);
+  groupesEnter
+    .append("rect")
+    .attr("x", 10 + textMaxWidth)
+    .attr("width", (d) => {
+      return d[type] * ratio;
+    })
+    .attr("height", height)
+    .attr("fill", "coral")
+    .attr("fill", (d) => d3.interpolateViridis(d[type] / data[0][type]));
 
-    groupesEnter.append("rect")
-        .attr("x", 10 + textMaxWidth)
-        .attr("width", d => {
-            return d[type] * ratio;
-        })
-        .attr("height", height)
-        .attr("fill", "coral")
-        .attr("fill", d => 
-            d3.interpolateViridis(d[type] / data[0][type])
-        );
+  groupesEnter
+    .append("text")
+    .attr("x", 10 + 10)
+    .attr("y", height / 2)
+    .attr("dominant-baseline", "middle")
+    .text((d) => `${d.name}`);
 
-    groupesEnter.append("text")
-        .attr("x", 10 + 10)
-        .attr("y", height / 2)
-        .attr("dominant-baseline", "middle")
-        .text(d => `${d.name}`);
+  groupesEnter
+    .append("text")
+    .classed("value", true)    
+    .attr("x", (d) => d[type] * ratio + 10 + textMaxWidth + 10)
+    .attr("y", height / 2)
+    .attr("dominant-baseline", "middle")
+    .text((d) => `${d[type]} ${type === "km" ? "km" : "km²"}`);
 
-    groupesEnter.append("text")
-        .attr("x", d => d[type] * ratio + 10 + textMaxWidth + 10)
-        .attr("y", height / 2)
-        .attr("dominant-baseline", "middle")
-        .text(d => `${d[type]} ${type === "km" ? "km" : "km²"}`);
+  // Le groupe de ceux qui sortent (les exits)
+  const groupeExit = groupes.exit();
+  groupeExit.remove();
 
-    const groupeExit = groupes.exit()
-    groupeExit.remove();
+  // Le groupe de ceux qui restent (les updates)
+  const groupesUpdate = groupes;
+  groupesUpdate
+    .transition()
+    .duration(750)
+    .attr("transform", (d, i) => `translate(0, ${10 + i * (height + gap)})`);
 
-    const groupesUpdate = groupes;
-    groupesUpdate.transition().duration(750)
-    .attr("transform", (d,i) => `translate(0, ${10 + i * (height + gap)})`);
+  groupesUpdate
+    .select("rect")
+    .transition()
+    .duration(750)
+    .attr("width", (d) => d[type] * ratio)
+    .attr("fill", (d) => d3.interpolateViridis(d[type] / data[0][type]));
 
+  groupesUpdate
+    .select("text.name")
+    .transition()
+    .duration(750)
+    .text((d) => `${d.name}`);
 
-    groupesUpdate.select("rect")
+  const t = groupesUpdate.select("text.value");
+
+  // Fade-out
+  t.transition()
+    .duration(375)
+    .style("opacity", 0)
+    .text((d) => "")
+    .on("end", () => {
+      // Mise à jour de la valeur
+      t.text((d) => `${d[type]} ${type === "km" ? "km" : "km²"}`);
+
+      // Fade-in
+      t.style("opacity", 0) // point de départ
         .transition()
-        .duration(750)
-        .attr("width", d => d[type] * ratio)
-        .attr("fill", d => 
-            d3.interpolateViridis(d[type] / data[0][type])
-        );
-
-    groupesUpdate.select("text:nth-of-type(1)")
-        .transition()
-        .duration(750)
-        .text(d => `${d.name}`);
-
-    groupesUpdate.select("text:nth-of-type(2)")
-        .transition()
-        .duration(750)
-        .attr("x", d => d[type] * ratio + 10 + textMaxWidth + 10)
-        .text(d => `${d[type]} ${type === "km" ? "km" : "km²"}`);
-}
+        .duration(375)
+        .attr("x", (d) => d[type] * ratio + 10 + textMaxWidth + 10)
+        .style("opacity", 1); // fin (complètement visible)
+    });
+};
 
 const main = async () => {
-    const data = await recupererDonnees();
-    console.log('Données récupérées :', data);
-    setupButtons(data, afficheDiagrammeWithD3);
-    afficheDiagrammeWithD3(data.slice(0,10), "km");
-}
+  const data = await recupererDonnees();
+
+  setupButtons(data, afficheDiagrammeWithD3);
+  afficheDiagrammeWithD3(data.slice(0, 10), "km");
+};
 
 main();
