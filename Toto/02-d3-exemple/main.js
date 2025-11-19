@@ -5,15 +5,16 @@ console.log('d3: ', d3);
 const recupererDonnees = async () => {
     const endpoint = "https://query.wikidata.org/sparql";
     const query = `
-      SELECT ?river ?riverLabel ?length
-      WHERE {
-        ?river wdt:P403 wd:Q1471 ;  # embouchure = Seine
-               wdt:P2043 ?length .  # longueur (en km)
+        SELECT ?river ?riverLabel ?length ?bassinVersant
+        WHERE {
+        ?river wdt:P403 wd:Q1471 .  # embouchure = Seine
+        ?river wdt:P2043 ?length .  # longueur (en km)
+        ?river wdt:P2053 ?bassinVersant .  # Surface du bassin versant (en km2)
         SERVICE wikibase:label {
-          bd:serviceParam wikibase:language "fr,en".
+            bd:serviceParam wikibase:language "fr,en".
         }
-      }
-      ORDER BY DESC(?length)
+        }
+        ORDER BY DESC(?length)
     `;
 
     const url = endpoint + "?query=" + encodeURIComponent(query);
@@ -30,7 +31,8 @@ const recupererDonnees = async () => {
 
     const data = json.results.bindings.map(b => ({
         name: b.riverLabel?.value || "(sans nom)",
-        km: parseFloat(b.length.value)
+        km: parseFloat(b.length.value),
+        surfacebassinversant: parseFloat(b.bassinversant.value)
     }));
     console.log('data: ', data);
 
