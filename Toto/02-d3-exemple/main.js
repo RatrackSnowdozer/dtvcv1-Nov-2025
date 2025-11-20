@@ -80,7 +80,7 @@ const afficheDiagrammeWithD3 = (data, type) => {
   const maxBarWith = +svg.attr("width") - 2 * 10 - textMaxWidth - textWidth;
   const ratio = maxBarWith / data[0][type];
 
-  const groupes = svg.selectAll("g").data(data, (d) => d.id);
+  const groupes = svg.selectAll("g.bar-group").data(data, (d) => d.id);
 
   // Le groupe de ceux qui entrent (les enters)
   const groupesEnter = groupes
@@ -120,6 +120,7 @@ const afficheDiagrammeWithD3 = (data, type) => {
   // Le groupe de ceux qui restent (les updates)
   const groupesUpdate = groupes;
   groupesUpdate
+    .select(g.value-group)
     .transition()
     .duration(750)
     .attr("transform", (d, i) => `translate(0, ${10 + i * (height + gap)})`);
@@ -129,7 +130,7 @@ const afficheDiagrammeWithD3 = (data, type) => {
     .transition()
     .duration(750)
     .attr("width", (d) => d[type] * ratio)
-    .attr("fill", (d) => d3.interpolateViridis(d[type] / data[0][type]));
+    //.attr("fill", (d) => d3.interpolateViridis(d[type] / data[0][type]));
 
   groupesUpdate
     .select("text.name")
